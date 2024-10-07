@@ -1,7 +1,7 @@
 function get_Date() {
     const secondHand = document.querySelector('.second-hand');
     const minuteHand = document.querySelector('.min-hand');
-    const hoursHand =  document.querySelector('.hour-hand');
+    const hoursHand = document.querySelector('.hour-hand');
   const now = new Date();
 //
   const seconds = now.getSeconds();
