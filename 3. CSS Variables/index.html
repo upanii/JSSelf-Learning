@@ -77,8 +77,8 @@
       // suffix добавляется если он есть в data-sizing в html
     }
     
-    inputs.forEach(input => input.addEventListener('change', handleUpdate))
-    inputs.forEach(input => input.addEventListener('mousemove', handleUpdate))
+    inputs.forEach(input => input.addEventListener('change', handleUpdate)) // Меняет css значение 
+    inputs.forEach(input => input.addEventListener('mousemove', handleUpdate)) // Меняет css значение в реальном времени
 </script>
 </body>
 </html>
